@@ -1,0 +1,19 @@
+{
+    "name": "webapp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "homepage": "",
+    "dependencies": {
+      "body-parser": "^1.19.2",
+      "cors": "^2.8.5",
+      "dialer": "https://bitbucket.org/pdombrowski/dialer.git",
+      "express": "^4.17.3",
+      "socket.io": "^4.4.1"
+    }
+  }
