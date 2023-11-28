@@ -3,8 +3,8 @@ const httpServer = express();
 const dialer = require('dialer').Dialer;
 const config = {
 url: 'https://uni-call.fcc-online.pl',
-login: 'focus09',
-password: '#789o2jbfdgd'
+login: '<login>',
+password: '<haslo>'
 };
 dialer.configure(config);
 // Serwer nasłuchuje na porcie 3000
