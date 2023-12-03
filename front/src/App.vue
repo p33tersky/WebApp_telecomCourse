@@ -15,7 +15,7 @@
   bottom: 0;
   left: 0;
   margin: auto;
-  background: rgb(255, 204, 0);
+  background: linear-gradient(135deg, #ffcc00, #ff6600);
   border-radius: 20px;
   box-sizing: border-box;
   padding: 20px;
@@ -47,6 +47,7 @@
 .header,
 .form-number {
   margin-bottom: 50px;
+  border-radius: 40px;
 }
 .header {
   margin-top: 50px;
