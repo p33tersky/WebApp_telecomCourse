@@ -1,5 +1,5 @@
 # WebApp_telecomCourse
-App made during Telecom course on University of Lodz
+App made during Telecom course on University of Lodz.
 This application is a simple phone call interface built using Vue.js. It allows users to initiate a phone call by entering a phone number and simulates the process of making the call.
 
 Features
