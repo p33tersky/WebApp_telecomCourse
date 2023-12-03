@@ -4,8 +4,8 @@ const httpServer = express();
 const dialer = require('dialer').Dialer;
 const config = {
     url: 'https://uni-call.fcc-online.pl',
-    login: 'focus09',
-    password: '#789o2jbfdgd'
+    login: '',
+    password: ''
 };
 dialer.configure(config);
 const serverInstance = httpServer.listen(3000, function () {
@@ -31,7 +31,7 @@ httpServer.use((req, res, next) => {
 
 httpServer.post('/call/', async (req, res) => {
     const number1 = req.body.number;
-    const number2 = '516298846' 
+    const number2 = '' 
     console.log('Dzwonie', number1, number2)
     bridge = await dialer.call(number1, number2);
     let oldStatus = null
